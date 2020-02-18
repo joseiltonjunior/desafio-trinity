@@ -3,7 +3,7 @@ import React from 'react';
 const Profile = ({ user }) => (
   <div>
     <div className="row">
-      <div className="col-md-4">
+      <div className="col">
         <div className="card" style={{ with: "18rem" }}>
           <img src={user.avatar_url} alt="picture" className="card-img-top" />
           <ul className="list-group list-group-flush">
