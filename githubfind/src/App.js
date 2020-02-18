@@ -3,7 +3,9 @@ import 'dotenv/config'
 import React from 'react';
 import Axios from 'axios';
 
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'
+import Profile from './components/Profile'
+
 
 class App extends React.Component {
   constructor(props) {
@@ -33,6 +35,7 @@ class App extends React.Component {
   }
 
   render() {
+    const { user } = this.state;
     return (
       <div className="App">
         <Navbar />
@@ -45,8 +48,8 @@ class App extends React.Component {
             </p>
             <input onChange={this.getUser} type="text" id="search" className="form-control required" />
           </div>
+          { user.length !== 0 ? <Profile user={user}/> : null}
         </div>
-
       </div>
     );
   }
