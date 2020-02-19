@@ -71,7 +71,7 @@ class App extends React.Component {
               />
             </form>
             <button
-              className="btn btn-dark"
+              className="btn btn-dark btn-block"
               style={{
                 width: "100px",
                 alignSelf: "center",

@@ -7,9 +7,9 @@ const Repo = ({ repo }) => (
         <a href={repo.html_url} target="blank">{repo.name}</a>
       </div>
       <div className="col-md-6">
-        <span className="badge badge-dark">Stars: {repo.stargazers_count}</span>
-        <span className="badge badge-dark">Watch: {repo.watchers_count}</span>
-        <span className="badge badge-dark">Forks: {repo.forks_count}</span>
+        <span className="badge" style={{fontSize: "15px"}}>Stars: {repo.stargazers_count}</span>
+        <span className="badge" style={{fontSize: "15px"}}>Watch: {repo.watchers_count}</span>
+        <span className="badge" style={{fontSize: "15px"}}>Forks: {repo.forks_count}</span>
       </div>
     </div>
   </div>
