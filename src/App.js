@@ -13,9 +13,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       github: {
-        url: "http://api.github.com/users",
-        client_id: "ad90b0b2099eb8f61246",
-        client_secret: "a00bf413894f9f9efc7c7907d03e7649778ef1b5",
+        url: "https://api.github.com/users",
         count: 7,
         sort: "created: asc"
       },
