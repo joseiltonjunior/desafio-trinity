@@ -46,10 +46,10 @@ class App extends React.Component {
 
     return (
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4" style={{ marginTop: "10px" }}>
           <Profile user={user} />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-8" style={{ marginTop: "10px" }}>
           {repos.map(repo => <Repo key={repo.name} repo={repo} />)}
         </div>
       </div>
@@ -64,12 +64,14 @@ class App extends React.Component {
         <div className="container">
           <div className="card card-body">
             <h1>Pesquisar Usuário</h1>
-            <input
-              onChange={this.getUser}
-              type="text" id="search"
-              placeholder="Digite o nome do usuário"
-              className="form-control required"
-            />
+            <form action="">
+              <input
+                onChange={this.getUser}
+                type="text" id="search"
+                placeholder="Digite o nome do usuário"
+                className="form-control required"
+              />
+            </form>
           </div>
 
           {this.state.user.length !== 0 ? this.renderProfile() : null}

@@ -21,7 +21,7 @@ const Profile = ({ user }) => (
             </li>
           </ul>
           <div className="card-body">
-            <a href="user.html_url" className="btn btn-dark btn-block">
+            <a href={user.html_url} className="btn btn-dark btn-block">
               Ver perfil
             </a>
           </div>
