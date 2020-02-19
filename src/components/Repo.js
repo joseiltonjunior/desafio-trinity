@@ -4,7 +4,7 @@ const Repo = ({ repo }) => (
   <div className="card card-body mb-2">
     <div className="row">
       <div className="col-md-6">
-        <a href="repo.html_url" target="_blank">{repo.name}</a>
+        <a href={repo.html_url} target="blank">{repo.name}</a>
       </div>
       <div className="col-md-6">
         <span className="badge badge-dark">Stars: {repo.stargazers_count}</span>
