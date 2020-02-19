@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a257f5ff253b040121177ad9505cfbd",
+    "revision": "222f408129b9bfab746ca7049635b390",
     "url": "/desafio-trinity/index.html"
   },
   {
-    "revision": "36bfb16ab5911725b1b0",
+    "revision": "5bdcd286b4755122bd7d",
     "url": "/desafio-trinity/static/css/main.6a211a4e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafio-trinity/static/js/2.f5c6601d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "36bfb16ab5911725b1b0",
-    "url": "/desafio-trinity/static/js/main.d15bc416.chunk.js"
+    "revision": "5bdcd286b4755122bd7d",
+    "url": "/desafio-trinity/static/js/main.8c0c5046.chunk.js"
   },
   {
     "revision": "3406c544610b102a515d",
