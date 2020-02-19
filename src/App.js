@@ -14,8 +14,8 @@ class App extends React.Component {
     this.state = {
       github: {
         url: "http://api.github.com/users",
-        client_id: "ad90b0b2099eb8f61246",
-        client_secret: "a00bf413894f9f9efc7c7907d03e7649778ef1b5",
+        client_id: process.env.CLIENT_ID,
+        client_secret: process.env.CLIENT_SECRET,
         count: 7,
         sort: "created: asc"
       },
