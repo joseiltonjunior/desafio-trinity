@@ -66,12 +66,19 @@ class App extends React.Component {
             <h1>Pesquisar Usuário</h1>
             <form action="">
               <input
-                onChange={this.getUser}
+                onBlur={this.getUser}
                 type="text" id="search"
                 placeholder="Digite o nome do usuário"
                 className="form-control required"
               />
             </form>
+            <button
+              className="btn btn-dark"
+              style={{
+                width: "100px",
+                alignSelf: "center",
+                marginTop: "20px"
+              }}> Buscar </button>
           </div>
 
           {this.state.user.length !== 0 ? this.renderProfile() : null}
