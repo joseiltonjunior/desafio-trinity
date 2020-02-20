@@ -65,16 +65,15 @@ class App extends React.Component {
             <form action="">
               <input
                 onBlur={this.getUser}
-                type="text" 
+                type="text"
                 id="search"
                 placeholder="Digite o nome do usuário"
-                className="form-control required"
+                className="form-control required form-control-lg"
               />
             </form>
             <button
-              className="btn btn-dark btn-block"
+              className="btn btn-dark btn-lg btn-block"
               style={{
-                width: "100px",
                 alignSelf: "center",
                 marginTop: "20px"
               }}> Buscar </button>

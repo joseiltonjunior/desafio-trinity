@@ -7,25 +7,25 @@ const Profile = ({ user }) => (
         <div className="card" style={{ with: "18rem" }}>
           <img src={user.avatar_url} alt="picture" className="card-img-top" />
           <ul className="list-group list-group-flush">
-          <li className="list-group-item">
+            <li className="list-group-item">
               Nome:
-              <span className="badge" style={{fontSize: "15px"}}>{user.name}</span>
+              <span>{user.name}</span>
             </li>
             <li className="list-group-item">
               Repositórios:
-              <span className="badge" style={{fontSize: "15px"}}>{user.public_repos}</span>
+              <span >{user.public_repos}</span>
             </li>
             <li className="list-group-item">
               Seguidores:
-              <span className="badge" style={{fontSize: "15px"}}>{user.followers}</span>
+              <span>{user.followers}</span>
             </li>
             <li className="list-group-item">
               Seguindo:
-              <span className="badge" style={{fontSize: "15px"}}>{user.following}</span>
+              <span>{user.following}</span>
             </li>
           </ul>
           <div className="card-body">
-            <a href={user.html_url} target="blank" className="btn btn-dark btn-block">
+            <a href={user.html_url} target="blank" className="btn btn-dark btn-lg btn-block">
               Ver perfil
             </a>
           </div>
