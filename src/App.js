@@ -65,7 +65,8 @@ class App extends React.Component {
             <form action="">
               <input
                 onBlur={this.getUser}
-                type="text" id="search"
+                type="text" 
+                id="search"
                 placeholder="Digite o nome do usuário"
                 className="form-control required"
               />
