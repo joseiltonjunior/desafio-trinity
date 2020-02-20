@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/desafio-trinity/static/css/main.6a211a4e.chunk.css",
-    "main.js": "/desafio-trinity/static/js/main.20e3a5c0.chunk.js",
-    "main.js.map": "/desafio-trinity/static/js/main.20e3a5c0.chunk.js.map",
+    "main.css": "/desafio-trinity/static/css/main.ad9790bf.chunk.css",
+    "main.js": "/desafio-trinity/static/js/main.4f0029a9.chunk.js",
+    "main.js.map": "/desafio-trinity/static/js/main.4f0029a9.chunk.js.map",
     "runtime-main.js": "/desafio-trinity/static/js/runtime-main.c1b627e9.js",
     "runtime-main.js.map": "/desafio-trinity/static/js/runtime-main.c1b627e9.js.map",
     "static/js/2.f5c6601d.chunk.js": "/desafio-trinity/static/js/2.f5c6601d.chunk.js",
     "static/js/2.f5c6601d.chunk.js.map": "/desafio-trinity/static/js/2.f5c6601d.chunk.js.map",
     "index.html": "/desafio-trinity/index.html",
-    "precache-manifest.94dc37a7a6146bd5c48f4c0aa3949bbe.js": "/desafio-trinity/precache-manifest.94dc37a7a6146bd5c48f4c0aa3949bbe.js",
+    "precache-manifest.18520a240c1af966d5a9092be7853357.js": "/desafio-trinity/precache-manifest.18520a240c1af966d5a9092be7853357.js",
     "service-worker.js": "/desafio-trinity/service-worker.js",
-    "static/css/main.6a211a4e.chunk.css.map": "/desafio-trinity/static/css/main.6a211a4e.chunk.css.map",
+    "static/css/main.ad9790bf.chunk.css.map": "/desafio-trinity/static/css/main.ad9790bf.chunk.css.map",
     "static/js/2.f5c6601d.chunk.js.LICENSE.txt": "/desafio-trinity/static/js/2.f5c6601d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c1b627e9.js",
     "static/js/2.f5c6601d.chunk.js",
-    "static/css/main.6a211a4e.chunk.css",
-    "static/js/main.20e3a5c0.chunk.js"
+    "static/css/main.ad9790bf.chunk.css",
+    "static/js/main.4f0029a9.chunk.js"
   ]
 }
